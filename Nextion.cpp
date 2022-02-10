@@ -255,7 +255,7 @@ void CNextion::setQuitInt()
 	sendCommandAction(16U);
 
 	sendCommand("t0.txt=\"MMDVM STOPPED\"");
-	sendCommandAction(19U);
+	sendCommandAction(18U);
 
 	m_clockDisplayTimer.stop();
 
@@ -274,7 +274,7 @@ void CNextion::setFMInt()
 	}
 
 	sendCommand("t0.txt=\"FM\"");
-	sendCommandAction(15U);
+	sendCommandAction(18U);
 
 	m_clockDisplayTimer.stop();
 
